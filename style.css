@@ -1,0 +1,32 @@
+.top {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    font-family: cursive, "Lucida Handwriting", serif;
+}
+
+.links {
+    background-color: #688D72;
+    font-size: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.centered {
+    float: center;
+    text-align: center;
+}
