@@ -1,32 +1,38 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+}
 .top {
-    position: relative;
     text-align: center;
     color: white;
+    margin: auto;
 }
 
 .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 85px;
     font-family: cursive, "Lucida Handwriting", serif;
+    background-color: #688D72;
+    margin: auto;
+}
+
+img {
+    margin: auto;
 }
 
 .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #688D72;
     font-size: 20px;
+    padding: 10px;
+    color: #FFFFFF;
 }
 
-.right {
-    float: right;
+a {
+    text-decoration: none;
 }
 
-.left {
-    float: left;
-}
-
-.centered {
-    float: center;
-    text-align: center;
+.links :visited {
+    color: #d4fadd
 }
